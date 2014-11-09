@@ -1,9 +1,9 @@
 .jumbotron{
-  background-image:url("../images/mainpic.jpg");
+  background:url("../images/mainpic.jpg");
 }
 
 .jumbotron h1{
-  color:#fff;
+  color:#105B63;
 }
 
 #search{
