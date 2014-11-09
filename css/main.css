@@ -1,0 +1,20 @@
+.jumbotron{
+  background-image:url("../images/mainpic.jpg");
+}
+
+.jumbotron h1{
+  color:#fff;
+}
+
+#search{
+  margin: 0 auto;
+  width:50%;
+  display: inline;
+}
+.rating .glyphicon {
+  font-size: 22px;
+}
+
+.login,.results{
+  margin-top:15%;
+}
