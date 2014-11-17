@@ -28,8 +28,15 @@
               <li><a href="#">Upload</a></li>
         </ul>
         <form class="navbar-form navbar-right" role="form">
-          <a href="login.html" class="btn btn-success">Sign In</a>
-          <button type="submit" class="btn btn-warning">Sign up</button>
+          <button type="button" class="btn btn-danger">John Doe</button>
+          <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            <span class="caret"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Sign Out</a></li>
+          </ul>
         </form>
       </div><!--/.navbar-collapse -->
     </div>
@@ -40,7 +47,6 @@
       <input type="text" placeholder="Steak" class="form-control" id="search">
       <a class="btn btn-success btn-lg" href="results.html" role="button">Search</a>
     </div>
-  </div>
   </div>
   <div class="container">
     <div class="row">
@@ -122,9 +128,11 @@
         <li><a href="#">&raquo;</a></li>
       </ul>
     </nav>
+  </div>
     <footer>
       <p>&copy; Paleo R 2014</p>
     </footer>
+
 <script src="js/jquery-2.1.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>  
 <script src="js/main.js"></script>

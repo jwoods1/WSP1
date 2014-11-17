@@ -28,8 +28,15 @@
               <li><a href="#">Upload</a></li>
         </ul>
         <form class="navbar-form navbar-right" role="form">
-          <a href="#">John Doe</a>
-          <a href="index.html" class="btn btn-danger">Sign Out</a>
+          <button type="button" class="btn btn-danger">John Doe</button>
+          <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            <span class="caret"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Sign Out</a></li>
+          </ul>
         </form>
       </div><!--/.navbar-collapse -->
     </div>
@@ -54,6 +61,7 @@
         <!-- Nav tabs -->
         <ul class="nav nav-tabs" role="tablist">
           <li role="presentation" class="active"><a href="#All" role="tab" data-toggle="tab">All</a></li>
+          <li role="presentation" class=""><a href="#Posted" role="tab" data-toggle="tab">Posted</a></li>
         </ul>
 
         <!-- Tab panes -->
@@ -123,6 +131,11 @@
                 </div>
               </div>
             </a>  
+          </div>
+          <div role="tabpanel" class="tab-pane" id="Posted">
+            <h3>No Posts</h3>
+            <a href="#">Added a new Post</a>
+
           </div>
         </div>
       </div>
